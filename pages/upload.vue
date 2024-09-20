@@ -64,7 +64,7 @@
     formData.append('0', file);
   
     try {
-      const response = await fetch('https://7e3a-14-241-226-209.ngrok-free.app/graphql', {
+      const response = await fetch('https://b842-115-79-137-39.ngrok-free.app/graphql', {
         method: 'POST',
         body: formData,
       });

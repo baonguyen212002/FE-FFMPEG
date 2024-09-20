@@ -8,7 +8,7 @@
   import { ref } from 'vue';
   import { useFetch } from 'nuxt/app';
   
-  const { data: videosData } = await useFetch('http://testuploadvideo.local/graphql', {
+  const { data: videosData } = await useFetch('https://b842-115-79-137-39.ngrok-free.app/graphql', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
